@@ -13,11 +13,17 @@ This program is a speech recognition and text-to-speech program that utilizes th
 1. Install Python 3.x
 2. Install the required libraries by running the following command:
 ```
-pip install speech_recognition pyttsx3 openai
+pip install SpeechRecognition pyttsx3 openai
 ```
 3. Install portaudio by running the following command:
+*Windows*
 ```
 pip install portaudio
+```
+*MacOS*
+```
+brew install portaudio
+pip install pyaudio
 ```
 4. Get an OpenAI API key from [OpenAI](https://beta.openai.com/signup/).
 
